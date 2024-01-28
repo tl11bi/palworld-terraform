@@ -1,4 +1,5 @@
 #!/bin/bash
 
 # cp by force
-cp -f PalWorldSettings.ini /home/steam/.steam/SteamApps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
+wget https://raw.githubusercontent.com/A1RM4X/HowTo-Palworld/main/palworld.service -P /etc/systemd/system/
+systemctl enable palworld.service && systemctl daemon-reload && systemctl start palworld.service
