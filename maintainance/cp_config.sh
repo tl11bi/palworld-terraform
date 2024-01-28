@@ -1,1 +1,1 @@
-cp /home/cosc_3p97/palworld-terraform/maintainance/PalWorldSettings.ini Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
+cp /home/cosc_3p97/palworld-terraform/maintainance/PalWorldSettings.ini /home/steam/.steam/SteamApps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
